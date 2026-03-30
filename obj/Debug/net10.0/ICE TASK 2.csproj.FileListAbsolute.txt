@@ -1,0 +1,18 @@
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\bin\Debug\net10.0\ICE TASK 2.exe
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\bin\Debug\net10.0\ICE TASK 2.deps.json
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\bin\Debug\net10.0\ICE TASK 2.runtimeconfig.json
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\bin\Debug\net10.0\ICE TASK 2.dll
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\bin\Debug\net10.0\ICE TASK 2.pdb
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\bin\Debug\net10.0\System.Speech.dll
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Speech.dll
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\ICE TASK 2.csproj.AssemblyReference.cache
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\ICE TASK 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\ICE TASK 2.AssemblyInfoInputs.cache
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\ICE TASK 2.AssemblyInfo.cs
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\ICE TASK 2.csproj.CoreCompileInputs.cache
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\ICE TASK 2.csproj.Up2Date
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\ICE TASK 2.dll
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\refint\ICE TASK 2.dll
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\ICE TASK 2.pdb
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\ICE TASK 2.genruntimeconfig.cache
+C:\Users\Jomar\source\repos\ICE TASK 2\ICE TASK 2\obj\Debug\net10.0\ref\ICE TASK 2.dll

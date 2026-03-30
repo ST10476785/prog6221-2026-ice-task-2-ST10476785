@@ -27,6 +27,42 @@ namespace ICE_TASK_2
 
 
         }
+
+        public class VocalResponse : ShipCommand {  //  Step 2  Child class vocalResponse, inherits from ShipCommand, overrides executeCommand method
+
+            public int? AlertPitch { get; set; }  //nullable int that will be used to adjust frequency
+
+
+            public override void ExecuteCommand() // override method to adjust pitch of vocal response based on The AlertPitch int
+            {
+                using (SpeechSynthesizer speechsynthesizer = new SpeechSynthesizer())
+                {
+                    if (AlertPitch == null) // if null synthesizer pitch will be normal as a default
+                    {
+                        Console.WriteLine("Mode: Standard Communication.");
+                        speechsynthesizer.Rate = 0;
+                        speechsynthesizer.Speak(InputText);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Mode: Priority Alert (Pitch Level: " + AlertPitch + ")");
+                        speechsynthesizer.Rate = AlertPitch.Value;
+                        speechsynthesizer.Speak(InputText); // if not null the pitch is adjusted based of the alertPitch int
+                    }
+                }
+            }
+
+
+
+        }
+
+
+        
+
+    
+        
+            
+        
         static void Main(string[] args)
         {
       
