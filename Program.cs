@@ -65,7 +65,54 @@ namespace ICE_TASK_2
         
         static void Main(string[] args)
         {
-      
+
+            //Step 3 Main method to prompt user input for rank, name and the command that will be spoken by the speechsynthesizer
+            Console.Write("Enter your rank and name (e.g., Captain Miller: ");
+            var userName = Console.ReadLine();
+
+            Console.Write("Enter your command: ");
+            var commandText = Console.ReadLine();
+
+            // String Methods for LogCode
+            string formattedName = userName.Trim().Replace(" ", "").ToUpper();
+            string formattedCommand = commandText.Trim().Replace(" ", "").ToUpper();
+
+            var logCode = formattedName + "-" + formattedCommand;
+
+            // Handling Nullables
+            Console.Write("Enter Alert Urgency (1 to 10) or leave empty for Standard Mode: ");
+            string urgencyInput = Console.ReadLine();
+
+            int? pitchLevel = null;
+
+            if (!string.IsNullOrWhiteSpace(urgencyInput) && int.TryParse(urgencyInput, out int parsedPitch))
+            {
+                pitchLevel = parsedPitch; 
+            }
+
+
+
+            Console.WriteLine("LOG CODE: " + logCode);
+
+
+            //  child class objecrt to execute the command with the user input and pitch level
+            VocalResponse currentCommand = new VocalResponse
+            {
+                AuthorizedUser = userName,
+                InputText = commandText,
+                AlertPitch = pitchLevel
+            };
+
+            // Call overridden method
+            currentCommand.ExecuteCommand();
+
+            Console.WriteLine("Press any key to close the terminal...");
+            Console.ReadKey();
+
+
+
+
+
         }
     }
 }
