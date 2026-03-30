@@ -90,6 +90,7 @@ namespace ICE_TASK_2
                 pitchLevel = parsedPitch; 
             }
 
+<<<<<<< HEAD
 
 
             Console.WriteLine("LOG CODE: " + logCode);
@@ -113,6 +114,8 @@ namespace ICE_TASK_2
 
 
 
+=======
+>>>>>>> 6bb1a57fb1127652008b864c5e28fa0a19875b3c
         }
     }
 }
