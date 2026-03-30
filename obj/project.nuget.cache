@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "n7ZuhQytkqc=",
+  "dgSpecHash": "DCKwGqBaScA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Jomar\\source\\repos\\ICE TASK 2\\ICE TASK 2\\ICE TASK 2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jomar\\.nuget\\packages\\system.speech\\10.0.5\\system.speech.10.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
